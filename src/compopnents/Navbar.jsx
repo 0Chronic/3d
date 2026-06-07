@@ -2,7 +2,36 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <header>
+     <div className=' fixed border-b border-b-zinc-300 
+     bg-white/50 backdrop-blur-lg min-w-full py-6 lg:py-7 px-4
+     sm:px-8 max-w-7xl overflow-x-clip'>
+      <div className="container mx-auto flex items-center 
+      justify-between">
+
+             {/* Logo*/}
+              <div className="text-3xl relative uppercase
+              tracking-tight text-zinc-900">
+              Furniture
+              </div>
+        {/* Desktop Nav*/}
+        <nav className='hidden lg:flex items-center space-x-8'>
+          
+        </nav>
+
+
+             {/* Mobile Nav*/}
+              
+             <div>
+
+             </div>
+
+
+           
+      </div>
+
+     </div>
+    </header>
   )
 }
 
