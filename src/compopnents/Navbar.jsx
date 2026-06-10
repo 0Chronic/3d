@@ -1,4 +1,5 @@
 import React from 'react'
+import Navlink from './Navlink'
 
 const Navbar = () => {
   return (
@@ -16,6 +17,18 @@ const Navbar = () => {
               </div>
         {/* Desktop Nav*/}
         <nav className='hidden lg:flex items-center space-x-8'>
+          <Navlink>Home</Navlink>
+          <Navlink>About</Navlink>
+          <Navlink>Workd</Navlink>
+          <Navlink>Gallery</Navlink>
+          <Navlink>Service</Navlink>
+
+          <button className='flex items-center space-x-2 bg-zinc-900
+          text-white text-sm py-4 px-6 rounded-full cursor-pointer 
+          transition-all duration-150 ease-in hover:bg-transparent 
+          border border-zinc-900 hover:text-zinc-900 '>
+
+          </button>
           
         </nav>
 
