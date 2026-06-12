@@ -1,10 +1,12 @@
-import React from 'react'
+import React  from 'react'
 import Navlink from './Navlink'
+
+
 
 const Navbar = () => {
   return (
     <header>
-     <div className=' fixed border-b border-b-zinc-300 
+     <div className='fixed border-b border-b-zinc-300 
      bg-white/50 backdrop-blur-lg min-w-full py-6 lg:py-7 px-4
      sm:px-8 max-w-7xl overflow-x-clip'>
       <div className="container mx-auto flex items-center 
@@ -28,6 +30,9 @@ const Navbar = () => {
           transition-all duration-150 ease-in hover:bg-transparent 
           border border-zinc-900 hover:text-zinc-900 '>
 
+         
+            <span>Contact us</span>
+
           </button>
           
         </nav>
@@ -35,8 +40,8 @@ const Navbar = () => {
 
              {/* Mobile Nav*/}
               
-             <div>
-
+             <div className='lg:hidden'>
+   
              </div>
 
 
