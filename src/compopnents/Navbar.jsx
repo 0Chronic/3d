@@ -1,10 +1,11 @@
 import React from 'react'
 import Navlink from './Navlink'
 
+
 const Navbar = () => {
   return (
-    <header>
-      <div className="fixed border-b border-b-zinc-300 bg-white/50 backdrop-blur-lg py-6 lg:py-8 px-4 sm:px-8 max-w-7xl min-w-full ovweflow-x-clip">
+    <header className='fixed border-b border-b-zinc-300 bg-white/50 backdrop-blur-lg py-6 lg:py-8 px-4 sm:px-8 max-w-7xl min-w-full ovweflow-x-clip'>
+     
         
         <div className=" container  mx-auto flex items-center justify-between">
           
@@ -15,11 +16,8 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <Navlink active>Home</Navlink>
-            <Navlink>About</Navlink>
-            <Navlink>Work</Navlink>
-            <Navlink>Gallery</Navlink>
-            <Navlink>Service</Navlink>
+           <Navlink>Home</Navlink>
+           
 
             <button className="ml-4 bg-zinc-900 text-white text-sm py-3 px-5 rounded-full border border-zinc-900 hover:bg-transparent hover:text-zinc-900 transition">
               Contact us
@@ -32,7 +30,7 @@ const Navbar = () => {
           </div>
 
         </div>
-      </div>
+      
     </header>
   )
 }
