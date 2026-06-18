@@ -17,9 +17,13 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center space-x-8">
            <Navlink>Home</Navlink>
+           <Navlink>About</Navlink>
+           <Navlink>Works</Navlink>
+           <Navlink>Gallery</Navlink>
+           <Navlink>Service</Navlink>
            
 
-            <button className="ml-4 bg-zinc-900 text-white text-sm py-3 px-5 rounded-full border border-zinc-900 hover:bg-transparent hover:text-zinc-900 transition">
+            <button className="flex items-center space-x-2 bg-zinc-900 text-white text-sm py-4 px6 rounded-full cursor-pointer transiton-all duration-150 ease-in ml-4 hover:bg-transparent border border-zinc-900 hover:text-zinc-900">
               Contact us
             </button>
           </nav>
